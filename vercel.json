@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "*.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      {
+        "src": "/_env",
+        "dest": "/api/env.js"
+      },
+      { "src": "/(.*)", "dest": "/index.html" }
+    ],
+    "functions": {
+      "api/env.js": {
+        "memory": 128,
+        "maxDuration": 5
+      }
+    }
+  }
