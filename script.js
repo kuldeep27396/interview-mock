@@ -280,7 +280,7 @@ async function startInterview() {
     }
     
     if (!groqApiKey) {
-        const key = prompt('Please enter your Groq API key:');
+        const key = prompt('Please enter your Groq API key if you have, if you do not have keys please continue with developer key that is alredy present. Keep it blank if you do not have any keys.:');
         if (!key) {
             alert('A Groq API key is required to continue.');
             return;
