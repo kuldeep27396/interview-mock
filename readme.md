@@ -1,7 +1,5 @@
 # Resume Interviewer - AI-Powered Mock Interview Platform
 
-![Resume Interviewer Banner](https://via.placeholder.com/1200x300?text=Resume+Interviewer)
-
 ## Overview
 
 Resume Interviewer is an AI-powered mock interview platform that generates personalized interview questions based on your resume. This tool helps job seekers practice for interviews by providing real-time feedback on their answers and a comprehensive performance summary.
@@ -18,7 +16,7 @@ Resume Interviewer is an AI-powered mock interview platform that generates perso
 
 ## Architecture
 
-![Architecture Diagram](https://via.placeholder.com/800x500?text=Architecture+Diagram)
+![img_1.png](img_1.png)
 
 ### System Architecture
 
