@@ -315,7 +315,7 @@
     
     <script>
       // Load environment variables
-      fetch('/_env')
+      fetch('/api/env')
         .then(response => response.json())
         .then(env => {
           window.initEnvironment(env);
